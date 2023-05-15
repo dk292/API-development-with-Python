@@ -1,6 +1,6 @@
 from typing import Optional
 
-# uvicorn main:app --reload
+# uvicorn app.main:app --reload
 
 from fastapi import FastAPI, Response, status, HTTPException  # create api
 from fastapi.params import Body  # extract data
